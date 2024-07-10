@@ -18,7 +18,7 @@ const Tareas = ({ setTareas, tareas }) => {
   };
 
   return (
-    <div>
+    <div className='bg-slate-500'>
       <input
         type="text"
         placeholder="Título de la tarea"
