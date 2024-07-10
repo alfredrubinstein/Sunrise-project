@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Tarea 1",
+        "time": 60000  
+    },
+    {
+        "name": "Tarea 2",
+        "time": 120000 
+    },
+    {
+        "name": "Tarea 3",
+        "time": 180000 
+    }
+]
