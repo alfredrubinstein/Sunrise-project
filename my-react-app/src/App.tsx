@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Tareas from './components/Tareas';
 import Reloj from './components/Reloj';
 import Publicidad from './components/Publi';
-
+import Horario from './components/Horario';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
             <h2 className="text-xl font-bold mb-4">Bienvenido al Gestor de Tareas</h2>
             <Tareas setTareas={setTareas} tareas={tareas} />
             <Reloj tareas={tareas} setTareas={setTareas} />
-            <Publicidad/>
+            <Horario/>
             <Publicidad/>
 
           </div>

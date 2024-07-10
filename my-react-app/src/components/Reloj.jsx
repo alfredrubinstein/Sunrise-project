@@ -38,7 +38,7 @@ const Reloj = ({ tareas, setTareas }) => {
   };
 
   return (
-    <div className="container p-5 text-center bg-slate-400 w-2/3">
+    <div className="flex-grow p-5 text-center bg-slate-400 mt-5">
       <h2 className="text-xl font-bold mb-4">Reloj</h2>
       <p className="text-lg mb-4">Total de segundos para cumplir todas las tareas: {totalSegundos}</p>
       <p className="text-lg mb-4">Segundos restantes: {segundosRestantes !== null ? segundosRestantes : totalSegundos}</p>
