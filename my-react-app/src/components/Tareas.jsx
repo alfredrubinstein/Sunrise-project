@@ -21,20 +21,20 @@ const Tareas = ({ setTareas, tareas }) => {
     <div className='bg-slate-500'>
       <input
         type="text"
-        placeholder="Título de la tarea"
+        placeholder="הכנס טקסט"
         value={titulo}
         onChange={(e) => setTitulo(e.target.value)}
         className="border p-2 m-2"
       />
       <input
         type="number"
-        placeholder="Tiempo en segundos"
+        placeholder="הכנס זמן בשניות"
         value={tiempo}
         onChange={(e) => setTiempo(e.target.value)}
         className="border p-2 m-2"
       />
       <button onClick={agregarTarea} className="bg-green-600 text-white p-2 rounded m-2">
-        Agregar
+        הוסף
       </button>
       <ul>
         {tareas.map((tarea, index) => (

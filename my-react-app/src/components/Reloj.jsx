@@ -40,14 +40,13 @@ const Reloj = ({ tareas, setTareas }) => {
   return (
     <div className="flex-grow p-5 text-center bg-slate-400 mt-5">
       <h2 className="text-xl font-bold mb-4">Reloj</h2>
-      <p className="text-lg mb-4">Total de segundos para cumplir todas las tareas: {totalSegundos}</p>
-      <p className="text-lg mb-4">Segundos restantes: {segundosRestantes !== null ? segundosRestantes : totalSegundos}</p>
+      <p className="text-lg mb-4">זמן שנותר כדי לסיים  {totalSegundos}</p>
+      <p className="text-lg mb-4">סך הזמן שנותר: {segundosRestantes !== null ? segundosRestantes : totalSegundos}</p>
       <button
         onClick={empezarContador}
         className="bg-blue-600 text-white p-2 rounded hover:bg-blue-700"
       >
-        Empezar
-      </button>
+התחל      </button>
     </div>
   );
 };
